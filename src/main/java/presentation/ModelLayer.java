@@ -14,6 +14,13 @@ public class ModelLayer implements Runnable{
     public void iniciar() {
     }
 
+    public ViewLayer getVentana() {
+        if (ventana == null){
+            ventana = new ViewLayer(control, sistema);
+        }
+        return ventana;
+    }
+
     public void run() {
 
     }
