@@ -8,5 +8,10 @@
     <artifactId>taller1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependency>
+        <groupId>com.intellij</groupId>
+        <artifactId>forms_rt</artifactId>
+        <version>5.0</version>
+    </dependency>
 
 </project>
